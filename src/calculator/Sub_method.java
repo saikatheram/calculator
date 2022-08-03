@@ -2,6 +2,7 @@ package calculator;
 
 import org.junit.AfterClass;
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 
 public class Sub_method {
@@ -18,5 +19,9 @@ public class Sub_method {
 	@AfterClass
 	public void getmsg() {
 		System.out.println("all methods are verified");
+	}
+	@BeforeClass
+	public void setup() {
+		System.out.println("set up was done");
 	}
 }
