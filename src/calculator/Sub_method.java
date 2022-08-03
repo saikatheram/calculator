@@ -1,5 +1,6 @@
 package calculator;
 
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
@@ -12,5 +13,10 @@ public class Sub_method {
 	public void verifysubMethod() {
 		
 	  Assert.assertEquals(cal.sub(), 6);	
+	}
+	
+	@AfterClass
+	public void getmsg() {
+		System.out.println("all methods are verified");
 	}
 }
