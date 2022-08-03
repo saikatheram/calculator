@@ -12,23 +12,23 @@ public class Calculator
 		this.b = b;
 	}
 	
-	private int rem() {
+	public int rem() {
 		rem = a % b;
 		return rem;
 	}
-	private int div() {
+	public int div() {
 		div =  a/b;
 		return div;
 	}
-	private int mul() {
+	public int mul() {
 		mul = a * b;
 		return mul;
 	}
-	private int sub() {
+	public int sub() {
 		sub = a - b;
 		return sub;
 	}
-	private int add() 
+	public int add() 
 	{
 		this.sum = this.a+ this.b;
 		return this.sum;
