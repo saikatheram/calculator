@@ -2,6 +2,7 @@ package calculator;
 
 import org.junit.AfterClass;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 
@@ -23,5 +24,11 @@ public class Sub_method {
 	@BeforeClass
 	public void setup() {
 		System.out.println("set up was done");
+	}
+	
+	@Before
+	public void method() {
+		System.out.println(" for local branch ");
+		
 	}
 }
