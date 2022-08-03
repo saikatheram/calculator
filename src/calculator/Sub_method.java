@@ -13,7 +13,7 @@ public class Sub_method {
 	Calculator cal = new Calculator(x, y);
 	@Test
 	public void verifysubMethod() {
-		
+		System.out.println("");
 	  Assert.assertEquals(cal.sub(), 6);	
 	}
 	
